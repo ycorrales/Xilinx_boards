@@ -1,0 +1,1 @@
+xvc_pynq/src/hdl/*.vhd top=xvc_pynq_top
