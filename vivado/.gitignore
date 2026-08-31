@@ -60,6 +60,7 @@ DCPs/
 .Xilinx/
 Projects/
 output/
+**/nlviewcommon.logfile
 lastbuilt.txt
 credentials.sh
 VivadoProject
