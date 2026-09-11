@@ -1,0 +1,429 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Fri May 22 21:34:19 2020
+# Process ID: 17920
+# Current directory: /home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.runs/sine_low_synth_1
+# Command line: vivado -log sine_low.vds -mode batch -messageDb vivado.pb -notrace -source sine_low.tcl
+# Log file: /home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.runs/sine_low_synth_1/sine_low.vds
+# Journal file: /home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.runs/sine_low_synth_1/vivado.jou
+#-----------------------------------------------------------
+source sine_low.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/l329869/Software/Xilinx/Vivado/2015.4/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'sine_low' generated file not found '/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/sine_low.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'sine_low' generated file not found '/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/sine_low_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'sine_low' generated file not found '/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/sine_low_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'sine_low' generated file not found '/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/sine_low_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'sine_low' generated file not found '/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/sine_low_sim_netlist.vhdl'. Please regenerate to continue.
+Command: synth_design -top sine_low -part xc7k325tffg900-2 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k325t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k325t'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1153.977 ; gain = 223.641 ; free physical = 210 ; free virtual = 20806
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'sine_low' [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/synth/sine_low.vhd:70]
+WARNING: [Synth 8-5640] Port 'debug_axi_pinc_in' is missing in component declaration [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/synth/sine_low.vhd:74]
+WARNING: [Synth 8-5640] Port 'debug_axi_poff_in' is missing in component declaration [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/synth/sine_low.vhd:74]
+WARNING: [Synth 8-5640] Port 'debug_axi_resync_in' is missing in component declaration [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/synth/sine_low.vhd:74]
+WARNING: [Synth 8-5640] Port 'debug_axi_chan_in' is missing in component declaration [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/synth/sine_low.vhd:74]
+WARNING: [Synth 8-5640] Port 'debug_core_nd' is missing in component declaration [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/synth/sine_low.vhd:74]
+WARNING: [Synth 8-5640] Port 'debug_phase' is missing in component declaration [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/synth/sine_low.vhd:74]
+WARNING: [Synth 8-5640] Port 'debug_phase_nd' is missing in component declaration [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/synth/sine_low.vhd:74]
+INFO: [Synth 8-3491] module 'dds_compiler_v6_0_11' declared at '/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0.vhd:122' bound to instance 'U0' of component 'dds_compiler_v6_0_11' [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/synth/sine_low.vhd:171]
+INFO: [Synth 8-638] synthesizing module 'dds_compiler_v6_0_11' [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0.vhd:232]
+INFO: [Synth 8-3491] module 'dds_compiler_v6_0_11_viv' declared at '/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:45951' bound to instance 'i_synth' of component 'dds_compiler_v6_0_11_viv' [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0.vhd:239]
+INFO: [Synth 8-638] synthesizing module 'dds_compiler_v6_0_11_viv' [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:46075]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:2064]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:2490]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1313]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1318]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1323]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1328]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1333]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1338]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1343]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1355]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1363]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1370]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1375]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1380]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1385]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1390]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1394]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1398]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1403]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1408]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1422]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1427]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1432]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1436]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1440]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1447]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1454]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1459]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1463]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1468]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1473]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1480]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1484]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1488]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1493]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1497]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1501]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1505]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1523]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1553]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1558]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1567]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1594]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1610]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1615]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1618]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1621]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1624]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1782]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1804]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1839]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1842]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:1845]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:3144]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:2490]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:3612]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:3627]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:3631]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:3636]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:2954]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:3033]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:594]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:597]
+INFO: [Synth 8-638] synthesizing module 'xbip_pipe_v3_0_1_viv' [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_pipe_v3_0_1/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:594]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:597]
+INFO: [Synth 8-256] done synthesizing module 'xbip_pipe_v3_0_1_viv' (1#1) [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_pipe_v3_0_1/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+INFO: [Synth 8-638] synthesizing module 'xbip_pipe_v3_0_1_viv__parameterized0' [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_pipe_v3_0_1/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:594]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:597]
+INFO: [Synth 8-256] done synthesizing module 'xbip_pipe_v3_0_1_viv__parameterized0' (1#1) [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_pipe_v3_0_1/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+INFO: [Synth 8-638] synthesizing module 'dds_compiler_v6_0_11_core' [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:44821]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:2954]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:2064]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:2490]
+INFO: [Synth 8-638] synthesizing module 'dds_compiler_v6_0_11_rdy' [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:44565]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:2954]
+INFO: [Synth 8-3491] module 'xbip_pipe_v3_0_1_viv' declared at '/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_pipe_v3_0_1/hdl/xbip_pipe_v3_0_vh_rfs.vhd:284' bound to instance 'i_rdy' of component 'xbip_pipe_v3_0_1_viv' [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:44647]
+INFO: [Synth 8-638] synthesizing module 'xbip_pipe_v3_0_1_viv__parameterized2' [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_pipe_v3_0_1/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:594]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:597]
+INFO: [Synth 8-256] done synthesizing module 'xbip_pipe_v3_0_1_viv__parameterized2' (1#1) [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_pipe_v3_0_1/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+INFO: [Synth 8-256] done synthesizing module 'dds_compiler_v6_0_11_rdy' (2#1) [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:44565]
+INFO: [Synth 8-3491] module 'sin_cos' declared at '/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:37740' bound to instance 'i_rom' of component 'sin_cos' [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:45642]
+INFO: [Synth 8-638] synthesizing module 'sin_cos' [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:37774]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:38081]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "block" *) [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:38082]
+INFO: [Synth 8-3491] module 'xbip_pipe_v3_0_1_viv' declared at '/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_pipe_v3_0_1/hdl/xbip_pipe_v3_0_vh_rfs.vhd:284' bound to instance 'i_addr_reg_a' of component 'xbip_pipe_v3_0_1_viv' [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:38209]
+INFO: [Synth 8-638] synthesizing module 'xbip_pipe_v3_0_1_viv__parameterized4' [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_pipe_v3_0_1/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:594]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:597]
+INFO: [Synth 8-256] done synthesizing module 'xbip_pipe_v3_0_1_viv__parameterized4' (2#1) [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_pipe_v3_0_1/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+INFO: [Synth 8-3491] module 'xbip_pipe_v3_0_1_viv' declared at '/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_pipe_v3_0_1/hdl/xbip_pipe_v3_0_vh_rfs.vhd:284' bound to instance 'i_addr_reg_b' of component 'xbip_pipe_v3_0_1_viv' [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:38221]
+INFO: [Synth 8-638] synthesizing module 'xbip_pipe_v3_0_1_viv__parameterized6' [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_pipe_v3_0_1/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:594]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:597]
+INFO: [Synth 8-256] done synthesizing module 'xbip_pipe_v3_0_1_viv__parameterized6' (2#1) [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_pipe_v3_0_1/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+INFO: [Synth 8-3491] module 'xbip_pipe_v3_0_1_viv' declared at '/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_pipe_v3_0_1/hdl/xbip_pipe_v3_0_vh_rfs.vhd:284' bound to instance 'i_rom_reg_a' of component 'xbip_pipe_v3_0_1_viv' [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:38305]
+INFO: [Synth 8-638] synthesizing module 'xbip_pipe_v3_0_1_viv__parameterized8' [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_pipe_v3_0_1/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:594]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:597]
+INFO: [Synth 8-256] done synthesizing module 'xbip_pipe_v3_0_1_viv__parameterized8' (2#1) [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_pipe_v3_0_1/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+INFO: [Synth 8-3491] module 'xbip_pipe_v3_0_1_viv' declared at '/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_pipe_v3_0_1/hdl/xbip_pipe_v3_0_vh_rfs.vhd:284' bound to instance 'i_rom_reg_b' of component 'xbip_pipe_v3_0_1_viv' [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:38317]
+INFO: [Synth 8-638] synthesizing module 'xbip_pipe_v3_0_1_viv__parameterized10' [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_pipe_v3_0_1/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:594]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:597]
+INFO: [Synth 8-256] done synthesizing module 'xbip_pipe_v3_0_1_viv__parameterized10' (2#1) [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_pipe_v3_0_1/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+INFO: [Synth 8-3491] module 'xbip_pipe_v3_0_1_viv' declared at '/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_pipe_v3_0_1/hdl/xbip_pipe_v3_0_vh_rfs.vhd:284' bound to instance 'i_op_reg_a' of component 'xbip_pipe_v3_0_1_viv' [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:38335]
+INFO: [Synth 8-638] synthesizing module 'xbip_pipe_v3_0_1_viv__parameterized12' [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_pipe_v3_0_1/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:594]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:597]
+INFO: [Synth 8-256] done synthesizing module 'xbip_pipe_v3_0_1_viv__parameterized12' (2#1) [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_pipe_v3_0_1/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+INFO: [Synth 8-3491] module 'xbip_pipe_v3_0_1_viv' declared at '/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_pipe_v3_0_1/hdl/xbip_pipe_v3_0_vh_rfs.vhd:284' bound to instance 'i_op_reg_b' of component 'xbip_pipe_v3_0_1_viv' [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:38347]
+INFO: [Synth 8-638] synthesizing module 'xbip_pipe_v3_0_1_viv__parameterized14' [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_pipe_v3_0_1/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:594]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:597]
+INFO: [Synth 8-256] done synthesizing module 'xbip_pipe_v3_0_1_viv__parameterized14' (2#1) [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_pipe_v3_0_1/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+INFO: [Synth 8-256] done synthesizing module 'sin_cos' (3#1) [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:37774]
+INFO: [Synth 8-3491] module 'xbip_pipe_v3_0_1_viv' declared at '/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_pipe_v3_0_1/hdl/xbip_pipe_v3_0_vh_rfs.vhd:284' bound to instance 'i_final_sin' of component 'xbip_pipe_v3_0_1_viv' [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:45775]
+INFO: [Synth 8-638] synthesizing module 'xbip_pipe_v3_0_1_viv__parameterized16' [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_pipe_v3_0_1/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:594]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:597]
+INFO: [Synth 8-256] done synthesizing module 'xbip_pipe_v3_0_1_viv__parameterized16' (3#1) [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_pipe_v3_0_1/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+INFO: [Synth 8-3491] module 'xbip_pipe_v3_0_1_viv' declared at '/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_pipe_v3_0_1/hdl/xbip_pipe_v3_0_vh_rfs.vhd:284' bound to instance 'i_final_cos' of component 'xbip_pipe_v3_0_1_viv' [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:45787]
+INFO: [Synth 8-638] synthesizing module 'xbip_pipe_v3_0_1_viv__parameterized18' [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_pipe_v3_0_1/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:594]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:597]
+INFO: [Synth 8-256] done synthesizing module 'xbip_pipe_v3_0_1_viv__parameterized18' (3#1) [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_pipe_v3_0_1/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+INFO: [Synth 8-3491] module 'xbip_pipe_v3_0_1_viv' declared at '/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_pipe_v3_0_1/hdl/xbip_pipe_v3_0_vh_rfs.vhd:284' bound to instance 'i_sin_op' of component 'xbip_pipe_v3_0_1_viv' [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:45815]
+INFO: [Synth 8-638] synthesizing module 'xbip_pipe_v3_0_1_viv__parameterized20' [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_pipe_v3_0_1/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:594]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:597]
+INFO: [Synth 8-256] done synthesizing module 'xbip_pipe_v3_0_1_viv__parameterized20' (3#1) [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/xbip_pipe_v3_0_1/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+WARNING: [Synth 8-3848] Net RFD in module/entity dds_compiler_v6_0_11_core does not have driver. [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:44809]
+WARNING: [Synth 8-3848] Net COSINE in module/entity dds_compiler_v6_0_11_core does not have driver. [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:44811]
+INFO: [Synth 8-256] done synthesizing module 'dds_compiler_v6_0_11_core' (4#1) [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:44821]
+WARNING: [Synth 8-3848] Net m_axis_data_tlast in module/entity dds_compiler_v6_0_11_viv does not have driver. [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:46032]
+WARNING: [Synth 8-3848] Net m_axis_data_tuser in module/entity dds_compiler_v6_0_11_viv does not have driver. [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:46033]
+WARNING: [Synth 8-3848] Net m_axis_phase_tdata in module/entity dds_compiler_v6_0_11_viv does not have driver. [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:46037]
+WARNING: [Synth 8-3848] Net m_axis_phase_tlast in module/entity dds_compiler_v6_0_11_viv does not have driver. [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:46038]
+WARNING: [Synth 8-3848] Net m_axis_phase_tuser in module/entity dds_compiler_v6_0_11_viv does not have driver. [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:46039]
+WARNING: [Synth 8-3848] Net s_phase_tlast in module/entity dds_compiler_v6_0_11_viv does not have driver. [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:46287]
+INFO: [Synth 8-256] done synthesizing module 'dds_compiler_v6_0_11_viv' (5#1) [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0_vh_rfs.vhd:46075]
+INFO: [Synth 8-256] done synthesizing module 'dds_compiler_v6_0_11' (6#1) [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/dds_compiler_v6_0_11/hdl/dds_compiler_v6_0.vhd:232]
+INFO: [Synth 8-256] done synthesizing module 'sine_low' (7#1) [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/synth/sine_low.vhd:70]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1208.824 ; gain = 278.488 ; free physical = 153 ; free virtual = 20749
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1208.824 ; gain = 278.488 ; free physical = 153 ; free virtual = 20749
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7k325tffg900-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/sine_low_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/sine_low_ooc.xdc] for cell 'U0'
+Parsing XDC File [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.runs/sine_low_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.runs/sine_low_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1524.832 ; gain = 0.000 ; free physical = 169 ; free virtual = 20568
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 17933 
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1524.836 ; gain = 594.500 ; free physical = 200 ; free virtual = 20567
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k325tffg900-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1524.836 ; gain = 594.500 ; free physical = 200 ; free virtual = 20567
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1524.836 ; gain = 594.500 ; free physical = 200 ; free virtual = 20567
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5547] Trying to map ROM "sin_cos_lut" into Block RAM due to explicit "ram_style" or "rom_style" specification
+INFO: [Synth 8-5547] Trying to map ROM "sin_cos_lut" into Block RAM due to explicit "ram_style" or "rom_style" specification
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1524.836 ; gain = 594.500 ; free physical = 193 ; free virtual = 20559
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 840 (col length:140)
+BRAMs: 890 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1524.840 ; gain = 594.504 ; free physical = 193 ; free virtual = 20559
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5547] Trying to map ROM "p_0_out" into Block RAM due to explicit "ram_style" or "rom_style" specification
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1524.840 ; gain = 594.504 ; free physical = 187 ; free virtual = 20554
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1524.840 ; gain = 594.504 ; free physical = 187 ; free virtual = 20554
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/i_synth/\has_s_phase.s_phase_tlast_checks.event_s_phase_tlast_unexpected_reg )
+INFO: [Synth 8-3332] Sequential element (\has_s_phase.s_phase_tlast_checks.event_s_phase_tlast_unexpected_reg ) is unused and will be removed from module dds_compiler_v6_0_11_viv.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1524.840 ; gain = 594.504 ; free physical = 179 ; free virtual = 20545
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1524.840 ; gain = 594.504 ; free physical = 179 ; free virtual = 20545
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 1524.840 ; gain = 594.504 ; free physical = 166 ; free virtual = 20507
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 1524.840 ; gain = 594.504 ; free physical = 166 ; free virtual = 20506
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 1524.840 ; gain = 594.504 ; free physical = 175 ; free virtual = 20483
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 1524.840 ; gain = 594.504 ; free physical = 175 ; free virtual = 20483
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 1524.840 ; gain = 594.504 ; free physical = 175 ; free virtual = 20483
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1524.840 ; gain = 594.504 ; free physical = 176 ; free virtual = 20483
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1524.840 ; gain = 594.504 ; free physical = 176 ; free virtual = 20483
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1524.840 ; gain = 594.504 ; free physical = 176 ; free virtual = 20483
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1524.840 ; gain = 594.504 ; free physical = 176 ; free virtual = 20483
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1524.840 ; gain = 594.504 ; free physical = 175 ; free virtual = 20482
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1524.840 ; gain = 594.504 ; free physical = 175 ; free virtual = 20482
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |LUT1     |     2|
+|2     |LUT2     |     2|
+|3     |LUT3     |     7|
+|4     |RAMB18E1 |     1|
+|5     |FDRE     |    14|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1524.840 ; gain = 594.504 ; free physical = 175 ; free virtual = 20482
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1524.840 ; gain = 129.336 ; free physical = 175 ; free virtual = 20483
+Synthesis Optimization Complete : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1524.840 ; gain = 594.504 ; free physical = 175 ; free virtual = 20483
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/sine_low_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/ip/sine_low/sine_low_ooc.xdc] for cell 'U0'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+70 Infos, 111 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 1524.840 ; gain = 520.172 ; free physical = 172 ; free virtual = 20483
+INFO: [Coretcl 2-1174] Renamed 9 cell refs.
+report_utilization: Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.02 . Memory (MB): peak = 1532.840 ; gain = 0.000 ; free physical = 171 ; free virtual = 20482
+INFO: [Common 17-206] Exiting Vivado at Fri May 22 21:34:53 2020...

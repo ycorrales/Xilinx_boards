@@ -1,0 +1,2 @@
+Boards/Zedboard/vivado/xvc_pynq/src/hdl/xvc_pynq_top.vhd top=xvc_pynq_top
+Boards/Zedboard/vivado/xvc_pynq/src/hdl/*.vhd

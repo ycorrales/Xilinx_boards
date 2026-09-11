@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Product Version: Vivado v2015.4 (64-bit)                     -->
+<!--                                                              -->
+<!-- Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.        -->
+
+<hwsession version="1" minor="1">
+  <device name="xc7k325t_0" gui_info="dashboard1=hw_ila_1[xc7k325t_0/hw_ila_1/Settings=ILA_SETTINGS_1;xc7k325t_0/hw_ila_1/Trigger Setup=ILA_TRIGGER_1;xc7k325t_0/hw_ila_1/Waveform=ILA_WAVE_1;xc7k325t_0/hw_ila_1/Status=ILA_STATUS_1;xc7k325t_0/hw_ila_1/Capture Setup=ILA_CAPTURE_1;]"/>
+  <ObjectList object_type="hw_device" gui_info="">
+    <Object name="xc7k325t_0" gui_info="">
+      <Properties Property="PROBES.FILE" value="$_project_name_.runs/impl_1/debug_nets.ltx"/>
+      <Properties Property="PROGRAM.HW_BITSTREAM" value="$_project_name_.runs/impl_1/sinegen_demo.bit"/>
+    </Object>
+  </ObjectList>
+  <ObjectList object_type="hw_ila" gui_info="">
+    <Object name="u_ila_0" gui_info="">
+      <Properties Property="CONTROL.CAPTURE_MODE" value="BASIC"/>
+      <Properties Property="CONTROL.TRIGGER_CONDITION" value="AND"/>
+      <Properties Property="CONTROL.TRIGGER_POSITION" value="512"/>
+      <Properties Property="CORE_REFRESH_RATE_MS" value="500"/>
+    </Object>
+  </ObjectList>
+  <ObjectList object_type="hw_probe" gui_info="">
+    <Object name="GPIO_BUTTONS_IBUF[1:0]" gui_info="Trigger Setup=0"/>
+  </ObjectList>
+  <probeset name="hw project" active="false">
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;hX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;hX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;hX"/>
+      </probeOptions>
+      <nets>
+        <net name="DONT_EAT"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq2&apos;hX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq2&apos;bRX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq2&apos;bRX"/>
+      </probeOptions>
+      <nets>
+        <net name="GPIO_BUTTONS_IBUF[1]"/>
+        <net name="GPIO_BUTTONS_IBUF[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq2&apos;hX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq2&apos;hX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq2&apos;hX"/>
+      </probeOptions>
+      <nets>
+        <net name="GPIO_BUTTONS_db[1]"/>
+        <net name="GPIO_BUTTONS_db[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq2&apos;hX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq2&apos;hX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq2&apos;hX"/>
+      </probeOptions>
+      <nets>
+        <net name="GPIO_BUTTONS_dly[1]"/>
+        <net name="GPIO_BUTTONS_dly[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq2&apos;hX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq2&apos;hX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq2&apos;hX"/>
+      </probeOptions>
+      <nets>
+        <net name="GPIO_BUTTONS_re[1]"/>
+        <net name="GPIO_BUTTONS_re[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq2&apos;hX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq2&apos;hX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq2&apos;hX"/>
+      </probeOptions>
+      <nets>
+        <net name="U_SINEGEN/sel[1]"/>
+        <net name="U_SINEGEN/sel[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq20&apos;hX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq20&apos;hX_XXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq20&apos;hX_XXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="U_SINEGEN/sine[19]"/>
+        <net name="U_SINEGEN/sine[18]"/>
+        <net name="U_SINEGEN/sine[17]"/>
+        <net name="U_SINEGEN/sine[16]"/>
+        <net name="U_SINEGEN/sine[15]"/>
+        <net name="U_SINEGEN/sine[14]"/>
+        <net name="U_SINEGEN/sine[13]"/>
+        <net name="U_SINEGEN/sine[12]"/>
+        <net name="U_SINEGEN/sine[11]"/>
+        <net name="U_SINEGEN/sine[10]"/>
+        <net name="U_SINEGEN/sine[9]"/>
+        <net name="U_SINEGEN/sine[8]"/>
+        <net name="U_SINEGEN/sine[7]"/>
+        <net name="U_SINEGEN/sine[6]"/>
+        <net name="U_SINEGEN/sine[5]"/>
+        <net name="U_SINEGEN/sine[4]"/>
+        <net name="U_SINEGEN/sine[3]"/>
+        <net name="U_SINEGEN/sine[2]"/>
+        <net name="U_SINEGEN/sine[1]"/>
+        <net name="U_SINEGEN/sine[0]"/>
+      </nets>
+    </probe>
+  </probeset>
+</hwsession>

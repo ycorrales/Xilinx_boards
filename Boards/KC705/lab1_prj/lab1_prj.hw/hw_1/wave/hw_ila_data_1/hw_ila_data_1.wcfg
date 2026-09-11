@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<wave_config>
+	<wave_state>
+	</wave_state>
+	<db_ref_list>
+		<db_ref path="/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1" type="auto">
+			<top_modules>
+				<top_module name="top">
+				</top_module>
+			</top_modules>
+		</db_ref>
+	</db_ref_list>
+	<WVObjectSize size="7">
+	</WVObjectSize>
+	<wvobject fp_name="U_SINEGEN/sel" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">U_SINEGEN/sel[1:0]</obj_property>
+		<obj_property name="ObjectShortName">U_SINEGEN/sel[1:0]</obj_property>
+	</wvobject>
+	<wvobject fp_name="GPIO_BUTTONS_dly" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">GPIO_BUTTONS_dly[1:0]</obj_property>
+		<obj_property name="ObjectShortName">GPIO_BUTTONS_dly[1:0]</obj_property>
+	</wvobject>
+	<wvobject fp_name="GPIO_BUTTONS_db" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">GPIO_BUTTONS_db[1:0]</obj_property>
+		<obj_property name="ObjectShortName">GPIO_BUTTONS_db[1:0]</obj_property>
+	</wvobject>
+	<wvobject fp_name="GPIO_BUTTONS_IBUF" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">GPIO_BUTTONS_IBUF[1:0]</obj_property>
+		<obj_property name="ObjectShortName">GPIO_BUTTONS_IBUF[1:0]</obj_property>
+	</wvobject>
+	<wvobject fp_name="GPIO_BUTTONS_re" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">GPIO_BUTTONS_re[1:0]</obj_property>
+		<obj_property name="ObjectShortName">GPIO_BUTTONS_re[1:0]</obj_property>
+	</wvobject>
+	<wvobject fp_name="U_SINEGEN/sine" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">U_SINEGEN/sine[19:0]</obj_property>
+		<obj_property name="ObjectShortName">U_SINEGEN/sine[19:0]</obj_property>
+	</wvobject>
+	<wvobject fp_name="DONT_EAT" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">DONT_EAT</obj_property>
+		<obj_property name="ObjectShortName">DONT_EAT</obj_property>
+	</wvobject>
+</wave_config>
+

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7k325tffg900-2" LaunchTime="1590208500">
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="RDI-RDI" Name="sinegen_demo.vdi"/>
+  <File Type="BG-DRC" Name="sinegen_demo.drc"/>
+  <File Type="BG-BGN" Name="sinegen_demo.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="sinegen_demo.sysdef"/>
+  <File Type="BITSTR-MMI" Name="sinegen_demo.mmi"/>
+  <File Type="BITSTR-BMM" Name="sinegen_demo_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="sinegen_demo.nky"/>
+  <File Type="BITSTR-RBT" Name="sinegen_demo.rbt"/>
+  <File Type="BITSTR-MSK" Name="sinegen_demo.msk"/>
+  <File Type="BG-BIN" Name="sinegen_demo.bin"/>
+  <File Type="BG-BIT" Name="sinegen_demo.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="sinegen_demo_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="sinegen_demo_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="sinegen_demo_postroute_physopt.dcp"/>
+  <File Type="ROUTE-CLK" Name="sinegen_demo_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="sinegen_demo_incremental_reuse_routed.rpt"/>
+  <File Type="PLACE-CLK" Name="sinegen_demo_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="sinegen_demo_placed.dcp"/>
+  <File Type="PWROPT-DRC" Name="sinegen_demo_drc_pwropted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="sinegen_demo_timing_summary_postroute_physopted.pb"/>
+  <File Type="PA-TCL" Name="sinegen_demo.tcl"/>
+  <File Type="PWROPT-DCP" Name="sinegen_demo_pwropt.dcp"/>
+  <File Type="OPT-HWDEF" Name="sinegen_demo.hwdef"/>
+  <File Type="PWROPT-TIMING" Name="sinegen_demo_timing_summary_pwropted.rpt"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
+  <File Type="OPT-DRC" Name="sinegen_demo_drc_opted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="sinegen_demo_timing_summary_physopted.rpt"/>
+  <File Type="INIT-TIMING" Name="sinegen_demo_timing_summary_init.rpt"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/impl_1/sources.xml"/>
+  <File Type="OPT-TIMING" Name="sinegen_demo_timing_summary_opted.rpt"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="sinegen_demo_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PLACE-IO" Name="sinegen_demo_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="sinegen_demo_utilization_placed.rpt"/>
+  <File Type="OPT-DCP" Name="sinegen_demo_opt.dcp"/>
+  <File Type="PLACE-UTIL-PB" Name="sinegen_demo_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="sinegen_demo_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="sinegen_demo_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="sinegen_demo_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="sinegen_demo_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="sinegen_demo_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="sinegen_demo_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="sinegen_demo_drc_physopted.rpt"/>
+  <File Type="ROUTE-DCP" Name="sinegen_demo_routed.dcp"/>
+  <File Type="ROUTE-DRC" Name="sinegen_demo_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="sinegen_demo_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="sinegen_demo_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="sinegen_demo_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="sinegen_demo_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="sinegen_demo_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="sinegen_demo_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="sinegen_demo_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="sinegen_demo_timing_summary_routed.rpx"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/lab1/sinegen.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../sources/src/lab1/sinegen.vhd"/>
+        <Attr Name="ImportTime" Val="1413151990"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab1/fsm.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../sources/src/lab1/fsm.vhd"/>
+        <Attr Name="ImportTime" Val="1413151990"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab1/debounce.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../sources/src/lab1/debounce.vhd"/>
+        <Attr Name="ImportTime" Val="1413151990"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab1/sinegen_demo.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../sources/src/lab1/sinegen_demo.vhd"/>
+        <Attr Name="ImportTime" Val="1429732586"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="sinegen_demo"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/lab1/sinegen_demo_kc705.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../sources/src/lab1/sinegen_demo_kc705.xdc"/>
+        <Attr Name="ImportTime" Val="1435164388"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/imports/lab1/sinegen_demo_kc705.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2015"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="sine_mid"/>
+  <BlockFileSet Type="BlockSrcs" Name="sine_low"/>
+  <BlockFileSet Type="BlockSrcs" Name="sine_high"/>
+</GenRun>

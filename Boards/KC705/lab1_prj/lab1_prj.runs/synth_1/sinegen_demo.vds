@@ -1,0 +1,363 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Fri May 22 22:19:47 2020
+# Process ID: 18912
+# Current directory: /home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.runs/synth_1
+# Command line: vivado -log sinegen_demo.vds -mode batch -messageDb vivado.pb -notrace -source sinegen_demo.tcl
+# Log file: /home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.runs/synth_1/sinegen_demo.vds
+# Journal file: /home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source sinegen_demo.tcl -notrace
+Command: synth_design -top sinegen_demo -part xc7k325tffg900-2 -flatten_hierarchy none
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k325t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k325t'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1137.496 ; gain = 207.160 ; free physical = 167 ; free virtual = 19999
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'sinegen_demo' [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/imports/lab1/sinegen_demo.vhd:45]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/imports/lab1/sinegen_demo.vhd:51]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/imports/lab1/sinegen_demo.vhd:52]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/imports/lab1/sinegen_demo.vhd:53]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/imports/lab1/sinegen_demo.vhd:60]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DIFF_TERM bound to: 0 - type: bool 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: 1 - type: bool 
+	Parameter IOSTANDARD bound to: LVDS - type: string 
+INFO: [Synth 8-113] binding component instance 'U_IBUFGDS' to cell 'IBUFGDS' [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/imports/lab1/sinegen_demo.vhd:106]
+INFO: [Synth 8-113] binding component instance 'U_BUFG' to cell 'BUFG' [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/imports/lab1/sinegen_demo.vhd:117]
+INFO: [Synth 8-3491] module 'debounce' declared at '/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/imports/lab1/debounce.vhd:37' bound to instance 'U_DEBOUNCE_0' of component 'debounce' [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/imports/lab1/sinegen_demo.vhd:127]
+INFO: [Synth 8-638] synthesizing module 'debounce' [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/imports/lab1/debounce.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'debounce' (1#1) [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/imports/lab1/debounce.vhd:46]
+INFO: [Synth 8-3491] module 'debounce' declared at '/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/imports/lab1/debounce.vhd:37' bound to instance 'U_DEBOUNCE_1' of component 'debounce' [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/imports/lab1/sinegen_demo.vhd:135]
+INFO: [Synth 8-3491] module 'sinegen' declared at '/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/imports/lab1/sinegen.vhd:31' bound to instance 'U_SINEGEN' of component 'sinegen' [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/imports/lab1/sinegen_demo.vhd:166]
+INFO: [Synth 8-638] synthesizing module 'sinegen' [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/imports/lab1/sinegen.vhd:41]
+INFO: [Synth 8-3491] module 'sine_high' declared at '/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.runs/synth_1/.Xil/Vivado-18912-pn1714380.lanl.gov/realtime/sine_high_stub.vhdl:5' bound to instance 'U_SH' of component 'sine_high' [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/imports/lab1/sinegen.vhd:160]
+INFO: [Synth 8-638] synthesizing module 'sine_high' [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.runs/synth_1/.Xil/Vivado-18912-pn1714380.lanl.gov/realtime/sine_high_stub.vhdl:17]
+INFO: [Synth 8-3491] module 'sine_mid' declared at '/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.runs/synth_1/.Xil/Vivado-18912-pn1714380.lanl.gov/realtime/sine_mid_stub.vhdl:5' bound to instance 'U_SM' of component 'sine_mid' [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/imports/lab1/sinegen.vhd:169]
+INFO: [Synth 8-638] synthesizing module 'sine_mid' [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.runs/synth_1/.Xil/Vivado-18912-pn1714380.lanl.gov/realtime/sine_mid_stub.vhdl:17]
+INFO: [Synth 8-3491] module 'sine_low' declared at '/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.runs/synth_1/.Xil/Vivado-18912-pn1714380.lanl.gov/realtime/sine_low_stub.vhdl:5' bound to instance 'U_SL' of component 'sine_low' [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/imports/lab1/sinegen.vhd:178]
+INFO: [Synth 8-638] synthesizing module 'sine_low' [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.runs/synth_1/.Xil/Vivado-18912-pn1714380.lanl.gov/realtime/sine_low_stub.vhdl:17]
+INFO: [Synth 8-256] done synthesizing module 'sinegen' (2#1) [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/imports/lab1/sinegen.vhd:41]
+INFO: [Synth 8-3491] module 'fsm' declared at '/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/imports/lab1/fsm.vhd:37' bound to instance 'U_FSM' of component 'fsm' [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/imports/lab1/sinegen_demo.vhd:178]
+INFO: [Synth 8-638] synthesizing module 'fsm' [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/imports/lab1/fsm.vhd:47]
+INFO: [Synth 8-256] done synthesizing module 'fsm' (3#1) [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/imports/lab1/fsm.vhd:47]
+INFO: [Synth 8-256] done synthesizing module 'sinegen_demo' (4#1) [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/sources_1/imports/lab1/sinegen_demo.vhd:45]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1177.879 ; gain = 247.543 ; free physical = 157 ; free virtual = 19959
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1177.879 ; gain = 247.543 ; free physical = 157 ; free virtual = 19958
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7k325tffg900-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.runs/synth_1/.Xil/Vivado-18912-pn1714380.lanl.gov/dcp/sine_low_in_context.xdc] for cell 'U_SINEGEN/U_SL'
+Finished Parsing XDC File [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.runs/synth_1/.Xil/Vivado-18912-pn1714380.lanl.gov/dcp/sine_low_in_context.xdc] for cell 'U_SINEGEN/U_SL'
+Parsing XDC File [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.runs/synth_1/.Xil/Vivado-18912-pn1714380.lanl.gov/dcp_2/sine_high_in_context.xdc] for cell 'U_SINEGEN/U_SH'
+Finished Parsing XDC File [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.runs/synth_1/.Xil/Vivado-18912-pn1714380.lanl.gov/dcp_2/sine_high_in_context.xdc] for cell 'U_SINEGEN/U_SH'
+Parsing XDC File [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.runs/synth_1/.Xil/Vivado-18912-pn1714380.lanl.gov/dcp_3/sine_mid_in_context.xdc] for cell 'U_SINEGEN/U_SM'
+Finished Parsing XDC File [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.runs/synth_1/.Xil/Vivado-18912-pn1714380.lanl.gov/dcp_3/sine_mid_in_context.xdc] for cell 'U_SINEGEN/U_SM'
+Parsing XDC File [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/constrs_1/imports/lab1/sinegen_demo_kc705.xdc]
+Finished Parsing XDC File [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/constrs_1/imports/lab1/sinegen_demo_kc705.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/l329869/vhdl_tutorial/debug_tutorial/test_projects/lab1_prj/lab1_prj.srcs/constrs_1/imports/lab1/sinegen_demo_kc705.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/sinegen_demo_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/sinegen_demo_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  IBUFGDS => IBUFDS: 1 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1516.059 ; gain = 0.000 ; free physical = 163 ; free virtual = 19756
+WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context implementation of instance 'U_SINEGEN/U_SH' at clock pin 'aclk' is different from the actual clock period '5.000', this can result in different implementation results.
+WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context implementation of instance 'U_SINEGEN/U_SL' at clock pin 'aclk' is different from the actual clock period '5.000', this can result in different implementation results.
+WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context implementation of instance 'U_SINEGEN/U_SM' at clock pin 'aclk' is different from the actual clock period '5.000', this can result in different implementation results.
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 18941 
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1516.062 ; gain = 585.727 ; free physical = 191 ; free virtual = 19755
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k325tffg900-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1516.062 ; gain = 585.727 ; free physical = 190 ; free virtual = 19755
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1516.062 ; gain = 585.727 ; free physical = 186 ; free virtual = 19755
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1516.062 ; gain = 585.727 ; free physical = 178 ; free virtual = 19748
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     21 Bit       Adders := 1     
+	   2 Input     20 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               21 Bit    Registers := 1     
+	               20 Bit    Registers := 3     
+	               10 Bit    Registers := 1     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 11    
++---Muxes : 
+	   4 Input     20 Bit        Muxes := 1     
+	   7 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module sinegen_demo 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 2     
+Module debounce 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module sinegen 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     21 Bit       Adders := 1     
+	   2 Input     20 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               21 Bit    Registers := 1     
+	               20 Bit    Registers := 3     
+	               10 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   4 Input     20 Bit        Muxes := 1     
+Module fsm 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   7 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 840 (col length:140)
+BRAMs: 890 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1516.066 ; gain = 585.730 ; free physical = 178 ; free virtual = 19748
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1516.066 ; gain = 585.730 ; free physical = 172 ; free virtual = 19742
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1516.066 ; gain = 585.730 ; free physical = 172 ; free virtual = 19742
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'U_SINEGEN/\sine_m_plus_l_reg[18] ' (FDE) to 'U_SINEGEN/\sine_m_plus_l_reg[19] '
+WARNING: [Synth 8-3332] Sequential element (\sine_m_plus_l_reg[18] ) is unused and will be removed from module sinegen.
+WARNING: [Synth 8-3332] Sequential element (\sine_h_minus_m_plus_l_reg[0] ) is unused and will be removed from module sinegen.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1516.066 ; gain = 585.730 ; free physical = 158 ; free virtual = 19727
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1516.066 ; gain = 585.730 ; free physical = 158 ; free virtual = 19727
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1516.066 ; gain = 585.730 ; free physical = 168 ; free virtual = 19694
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1516.066 ; gain = 585.730 ; free physical = 160 ; free virtual = 19685
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1516.066 ; gain = 585.730 ; free physical = 151 ; free virtual = 19676
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1516.066 ; gain = 585.730 ; free physical = 151 ; free virtual = 19676
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1516.066 ; gain = 585.730 ; free physical = 151 ; free virtual = 19676
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1516.066 ; gain = 585.730 ; free physical = 151 ; free virtual = 19676
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1516.066 ; gain = 585.730 ; free physical = 151 ; free virtual = 19676
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1516.066 ; gain = 585.730 ; free physical = 151 ; free virtual = 19676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register:
++------------+---------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name            | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+---------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|sinegen     | aresetn_sig_rrr_reg | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
++------------+---------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |sine_high     |         1|
+|2     |sine_mid      |         1|
+|3     |sine_low      |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+---------------+------+
+|      |Cell           |Count |
++------+---------------+------+
+|1     |sine_high_bbox |     1|
+|2     |sine_low_bbox  |     1|
+|3     |sine_mid_bbox  |     1|
+|4     |BUFG           |     1|
+|5     |CARRY4         |    23|
+|6     |LUT1           |    50|
+|7     |LUT2           |    41|
+|8     |LUT3           |     5|
+|9     |LUT4           |    17|
+|10    |LUT5           |     7|
+|11    |LUT6           |    24|
+|12    |SRL16E         |     1|
+|13    |FDRE           |   148|
+|14    |IBUF           |     3|
+|15    |IBUFGDS        |     1|
+|16    |OBUF           |     4|
++------+---------------+------+
+
+Report Instance Areas: 
++------+---------------+------------+------+
+|      |Instance       |Module      |Cells |
++------+---------------+------------+------+
+|1     |top            |            |   392|
+|2     |  U_DEBOUNCE_0 |debounce__1 |    59|
+|3     |  U_DEBOUNCE_1 |debounce    |    59|
+|4     |  U_SINEGEN    |sinegen     |   241|
+|5     |  U_FSM        |fsm         |     4|
++------+---------------+------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1516.066 ; gain = 585.730 ; free physical = 151 ; free virtual = 19676
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 2 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 1516.066 ; gain = 101.383 ; free physical = 151 ; free virtual = 19676
+Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1516.066 ; gain = 585.730 ; free physical = 151 ; free virtual = 19676
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 27 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  IBUFGDS => IBUFDS: 1 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+39 Infos, 5 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1516.066 ; gain = 514.395 ; free physical = 149 ; free virtual = 19676
+report_utilization: Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 1548.078 ; gain = 0.000 ; free physical = 150 ; free virtual = 19676
+INFO: [Common 17-206] Exiting Vivado at Fri May 22 22:20:14 2020...

@@ -1,0 +1,3 @@
+Boards/Zedboard/vivado/pl-oled/src/hdl/top.vhd top=top
+Boards/Zedboard/vivado/pl-oled/src/hdl/*.vhd
+Boards/Zedboard/vivado/pl-oled/src/others/*
